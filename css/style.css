@@ -1,4 +1,146 @@
 .img-logo {
-  max-width: 200px;
+  max-width: 300px;
 }
-/*# sourceMappingURL=style.css.map */
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+.first_container {
+  display: flex;
+  background-image: url("../img/axiom-pattern.png");
+  background-repeat: repeat;
+}
+
+.height {
+  height: 400px;
+  margin-top: 70px;
+}
+
+.second_container {
+  margin-bottom: 70px;
+}
+
+.sales-box {
+  width: 40%;
+  height: 350px;
+  background-color: #cfccc0;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Yeseva One";
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+footer {
+  width: 100%;
+  height: 450px;
+  background-color: #e9e5dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.sale-title {
+  font-family: "Yeseva One";
+  font-size: 5rem;
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.content {
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content-text,
+.content-text-second,
+.content-text-third {
+  padding: 0px 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-text-third {
+  background-color: #4e4737;
+  color: white;
+}
+
+.content-text-second {
+  background-color: #e9e5dd;
+}
+
+.content-text {
+  background-color: #cfccc0;
+}
+
+.content-img,
+.content-img-second,
+.content-img-third {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 500px;
+}
+
+.content-img {
+  background-image: url(../img/table_decor.jpg);
+}
+
+.content-img-second {
+  background-image: url(../img/dining_table_plate.jpg);
+}
+
+.content-img-third {
+  background-image: url(../img/chair_wool_decor.jpg);
+}
+
+@media (max-width: 800px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .sales-box {
+    width: 90%;
+    height: 200px;
+  }
+}
