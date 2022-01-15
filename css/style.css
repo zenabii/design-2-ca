@@ -30,6 +30,35 @@ html {
   background-repeat: repeat;
 }
 
+.product_texture {
+  display: flex;
+  background-image: url("../img/axiom-pattern.png");
+  background-repeat: repeat;
+  height: 300px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-text {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.favorites {
+  display: flex;
+}
+
+.top-img {
+  width: 100%;
+}
+
 .height {
   height: 400px;
   margin-top: 70px;
@@ -89,6 +118,19 @@ h3 {
   object-fit: cover;
 }
 
+.full-width-header {
+  width: 90%;
+  height: 700px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.second_container-product {
+  padding-bottom: 70px;
+  display: flex;
+}
+
 .content {
   max-width: 1200px;
   display: grid;
@@ -125,6 +167,27 @@ h3 {
   background-position: center;
   align-items: center;
   height: 500px;
+}
+
+.product-img,
+.product-img-second,
+.product-img-third {
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 700px;
+}
+
+.product-img {
+  background-image: url(../img/table-decor-photography.jpg);
+}
+
+.product-img-second {
+  background-image: url(../img/glasses.jpg);
+}
+
+.product-img-third {
+  background-image: url(../img/wall-photography.jpg);
 }
 
 .content-img {
